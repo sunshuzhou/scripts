@@ -2,7 +2,9 @@
 
 # This script will do the following things:
 #   1. download pbc-0.5.14, which may be not the latest version of pbc
-#   2. enter pbc source directory and compile it
+#   2. enter pbc source directory and compile it in Mac OSX
+#
+# Note: You need to have gmp already installed. (e.g. brew install gmp)
 
 name=pbc-0.5.14.tar.gz
 if ! [[ -e $name ]];then
