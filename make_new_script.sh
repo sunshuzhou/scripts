@@ -7,7 +7,9 @@
 #    make a new script based on template.sh
 #
 
-template=`cat template.sh`
+dir=`dirname $0`
+#echo $dir
+template=`cat $dir/template.sh`
 #echo "$template"
 datetime=$(date "+%Y-%m-%d %H:%M")
 
