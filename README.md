@@ -7,4 +7,4 @@ Useful scripts
 
 - 全新Ubuntu系统软件安装脚本
 
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/sunshuzhou/scripts/master/gen_another_ubuntu.sh)"
+        curl -s https://raw.githubusercontent.com/sunshuzhou/scripts/master/gen_another_ubuntu.sh | bash /dev/stdin
